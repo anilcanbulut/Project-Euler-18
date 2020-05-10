@@ -4,7 +4,7 @@ Project Euler is a series of challenging mathematical/computer programming probl
 By starting at the top of the triangle below and moving to adjacent numbers on the row below, the maximum total from top to bottom is 23.
 
 <p align="center">
-  <img src="images/small-triangle.png" width="350" title="How It Works?">
+  <img src="images/small-triangle.png" width="50" title="How It Works?">
 </p>
 
 That is, 3 + 7 + 4 + 9 = 23.
