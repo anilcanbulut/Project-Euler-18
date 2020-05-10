@@ -15,7 +15,10 @@ with open('file.txt', 'r') as f:
 
 for i in range(size_last_line):
 	for j in range(size_last_line-i-1):
-
+		
+		#Starting from the bottom row, we compare sequential two columns and decide which one is greater.
+		#The greater one is added to its adjacent which is its above row.
+		#Applying same steps until the top then we get the max sum.
 		if (arr[(size_last_line-1) - i][j] > arr[(size_last_line-1) - i][j+1]):
 			arr[(size_last_line-1) - i - 1][j] += arr[(size_last_line-1) - i][j]
 		else:
