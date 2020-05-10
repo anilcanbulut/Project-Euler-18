@@ -17,3 +17,5 @@ Find the maximum total from top to bottom of the triangle below:
 
 
 (Credit: https://projecteuler.net/problem=18)
+
+There is also another problem which is <a href="https://projecteuler.net/problem=67">here</a> with much more complicated triangle. Our algorithm is also able to solve the max sum in it. The special thing about this problem is if you try to solve it by using "Brute Force" method, it would take 20 billion years to solve it. But with our algorithm, it takes only seconds. 
